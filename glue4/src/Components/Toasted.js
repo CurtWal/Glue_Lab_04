@@ -19,9 +19,9 @@ export default class Toasted extends Component {
     return (
         <ToastContainer position='top-end'>
             <Toast show={this.props.isSubmitted} onClose={this.handleClose}>
-            <Toast.Header>Form successfully submitted!
+            <Toast.Header>Form Successfully Submitted!
             </Toast.Header>
-            <Toast.Body>I'm toast!</Toast.Body>
+            <Toast.Body>Its getting kind of warm!</Toast.Body>
             </Toast>
         </ToastContainer>
     )

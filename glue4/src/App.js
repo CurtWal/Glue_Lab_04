@@ -17,12 +17,12 @@ export default class App extends Component {
 
   updateState = () => {
     this.setState({isSubmitted: true})
-    console.log('isSubmitted: state set to true')
+    
   }
 
   falseState = () => {
     this.setState({isSubmitted: false})
-    console.log('isSubmitted: state set to false')
+    
   }
 
   render() {
